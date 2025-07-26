@@ -1,0 +1,5 @@
+{
+    "require": {
+        "mgp25/instagram-api": "^7.0"
+    }
+}
