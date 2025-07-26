@@ -24,8 +24,9 @@ npm start
 4. Takipten çıkarmak istediğiniz kişi sayısını belirtin (boş bırakırsanız tüm takip ettiklerinizi çıkarır)
 5. "Unfollow İşlemini Başlat" butonuna tıklayın
 
-## Güvenlik Notları
-
+```diff
+- /!\ Güvenlik Notları
+```
 - Bu uygulama sadece yerel ağda çalışacak şekilde tasarlanmıştır
 - Instagram şifreniz sunucuda saklanmaz, sadece Instagram API'sine gönderilir
 - Instagram'ın API kullanım politikalarına dikkat edin, çok fazla işlem yapmak hesabınızın kısıtlanmasına neden olabilir
@@ -35,3 +36,11 @@ npm start
 - Node.js ve Express.js kullanılarak geliştirilmiştir
 - Instagram işlemleri için `instagram-private-api` kütüphanesi kullanılmıştır
 - Tüm işlemler log dosyalarına kaydedilir (`logs` klasöründe bulabilirsiniz)
+
+## İletişim
+```bash
+instagram: officialseko
+tiktok: sekomirson
+github: sekomirson
+google maps: SekoMirson
+```
