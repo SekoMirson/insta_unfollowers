@@ -1,0 +1,65 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card-header {
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    border-bottom: none;
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4);
+    border: none;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(45deg, #833ab4, #c13584, #e1306c);
+}
+
+.form-control:focus {
+    border-color: #5851db;
+    box-shadow: 0 0 0 0.2rem rgba(88, 81, 219, 0.25);
+}
+
+.alert {
+    border-radius: 4px;
+}
+
+.progress-container {
+    margin-top: 20px;
+}
+
+.status-container {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.log-entry {
+    margin-bottom: 5px;
+    padding: 5px;
+    border-bottom: 1px solid #eee;
+}
+
+.log-success {
+    color: #28a745;
+}
+
+.log-error {
+    color: #dc3545;
+}
+
+.log-info {
+    color: #17a2b8;
+}
